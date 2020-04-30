@@ -1,0 +1,46 @@
+$header_footer_bkg_color : cadetblue;
+$mainContent_bgk_color :darkgrey;
+
+h1 {
+    color:blue;
+    text-align: center;
+
+}
+
+table,tr,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#professionTbl{
+    width:50%;
+}
+
+#specialWord{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.top{
+    height: 100px;
+    width: 80%;
+    background-color:$header_footer_bkg_color;
+    margin-left: 10%;
+}
+
+.middle{
+    height: 600px;
+    width:  80%;
+    background-color:$mainContent_bgk_color;
+    margin-left: 10%;
+
+}
+
+.bottom{
+    height: 200px;
+    width: 80%;
+    background-color:$header_footer_bkg_color;
+    margin-left: 10%;
+
+
+}
